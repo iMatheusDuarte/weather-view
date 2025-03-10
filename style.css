@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+body {
+    background: linear-gradient(120deg, #073b69, #000000);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+.container {
+    background: rgb(199, 199, 199);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 400px;
+}
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+button {
+    background: #4facfe;
+    color: rgba(255, 255, 255, 0.918);
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background: #00c3ff;
+}
+.resultado {
+    margin-top: 15px;
+}
+.icone {
+    width: 80px;
+}
+input {
+    background-color: rgb(119, 119, 119); /* Cor de fundo do input */
+    color: white; /* Cor do texto digitado */
+    border: 1px solid white;
+    padding: 10px;
+}
+input::placeholder {
+    color: rgba(255, 255, 255, 0.7); /* Placeholder branco com opacidade */
+}
